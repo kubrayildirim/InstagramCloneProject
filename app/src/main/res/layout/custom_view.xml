@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/custom_view_username_text"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="usernameText"
+        android:textSize="20sp"/>
+
+
+
+    <ImageView
+        android:id="@+id/custom_viev_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="227dp"
+        app:srcCompat="@drawable/ic_launcher_background"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"/>
+
+
+
+    <TextView
+        android:id="@+id/custom_view_comment_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=" comment text"
+        android:textSize="20sp"/>
+
+</LinearLayout>
